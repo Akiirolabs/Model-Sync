@@ -1,0 +1,25 @@
+node_modules
+dist
+.next
+out
+coverage
+*.tsbuildinfo
+.turbo
+.DS_Store
+Thumbs.db
+
+# Local env and databases
+.env
+.env.local
+*.db
+*.db-wal
+*.db-shm
+
+# Tauri / Rust
+apps/desktop/src-tauri/target
+
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*

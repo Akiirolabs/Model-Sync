@@ -1,0 +1,57 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+.ms-btn {
+  appearance: none;
+  border: 1px solid var(--ms-edge);
+  background: var(--ms-bg-2);
+  color: var(--ms-text);
+  padding: 3px 8px;
+  border-radius: var(--ms-radius);
+  cursor: pointer;
+  font-size: var(--ms-fs-body);
+}
+
+.ms-input {
+  width: 100%;
+  max-width: 520px;
+  background: var(--ms-bg-1);
+  border: 1px solid var(--ms-edge-soft);
+  border-radius: var(--ms-radius);
+  padding: 4px 8px;
+  color: var(--ms-text);
+}
+
+.ms-field {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-bottom: 8px;
+}
+
+.ms-label {
+  font-size: var(--ms-fs-meta);
+  color: var(--ms-text-dim);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.ms-muted {
+  color: var(--ms-text-dim);
+}
+
+.ms-mono {
+  font-family: var(--ms-font-mono);
+  font-size: var(--ms-fs-meta);
+}
+
+.ms-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
