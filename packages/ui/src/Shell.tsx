@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { LiquidChromeOrb } from "./LiquidChromeOrb";
 
 export function Shell({
   statusText,
@@ -9,7 +10,11 @@ export function Shell({
 }) {
   return (
     <div className="ms-shell">
-      <div className="ms-shell-status">{statusText ?? "model-sync"}</div>
+      <div className="ms-shell-status">
+        <LiquidChromeOrb size={16} />
+        <span className="ms-brand-word">Model Sync</span>
+        <span>{statusText ?? "model-sync"}</span>
+      </div>
       {children}
     </div>
   );
